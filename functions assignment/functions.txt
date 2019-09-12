@@ -1,0 +1,13 @@
+i. What keyword does Swift use to mark the definition of a function? (Think like def in. Python and function in JavaScript.)
+
+Swift uses 'func.'
+
+
+ii. How do you declare the type of value that a function returns?
+
+You use a return arrow, ->, to declare the type of value the function returns. Ex: '-> String' 
+
+iii. How could you use argument labels to help clean up your code or make it more readable?
+
+You could make a function be called in a sentence-like manner, which makes your code easier to understand (it allows for more specificity). 
+
