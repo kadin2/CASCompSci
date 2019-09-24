@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AgeCalculator/ViewController.swift"
+            timestampString = "591037507.488783"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AgeCalculator.ViewController.birthYear.getter : Swift.Int"
+                  moduleName = "AgeCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kadin/Desktop/Comp%20Sci/AgeCalculator/AgeCalculator/ViewController.swift"
+                  timestampString = "591019913.088185"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "102">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AgeCalculator.ViewController.birthYear.setter : Swift.Int"
+                  moduleName = "AgeCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kadin/Desktop/Comp%20Sci/AgeCalculator/AgeCalculator/ViewController.swift"
+                  timestampString = "591019913.091481"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AgeCalculator.ViewController.birthYear.modify : Swift.Int"
+                  moduleName = "AgeCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kadin/Desktop/Comp%20Sci/AgeCalculator/AgeCalculator/ViewController.swift"
+                  timestampString = "591019913.096141"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AgeCalculator.ViewController.birthYear.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AgeCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kadin/Desktop/Comp%20Sci/AgeCalculator/AgeCalculator/ViewController.swift"
+                  timestampString = "591019913.110422"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AgeCalculator.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AgeCalculator.ViewController"
+                  moduleName = "AgeCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kadin/Desktop/Comp%20Sci/AgeCalculator/AgeCalculator/ViewController.swift"
+                  timestampString = "591019913.115873"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "809">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AgeCalculator.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AgeCalculator.ViewController&gt;"
+                  moduleName = "AgeCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kadin/Desktop/Comp%20Sci/AgeCalculator/AgeCalculator/ViewController.swift"
+                  timestampString = "591019913.121942"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "723">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
