@@ -198,8 +198,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgW-Vz-hJU">
                                 <rect key="frame" x="20" y="78" width="374" height="464"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">You let him be but start to see him slowly fading away. He looks back at you and Lt and says, “I’m joining the Jeffsteinites. I’m joining my ancestors.” A tear runs down your eyes, and you’re left wondering if you should have interrupted him. You realize that you’re Kombat Karl, so you stop crying and assume that his transcendence was for the best. You pack what’s left in the frigate, and you and Lt look up at the “North to New Los Angeles” sign. Then, Lt says, “It’s time to become immortal,” a cryptic yet thrilling line. 
-</mutableString>
+                                <string key="text">You let him be but start to see him slowly fading away. He looks back at you and Lt and says, “I’m joining the Jeffsteinites. I’m joining my ancestors.” A tear runs down your eyes, and you’re left wondering if you should have interrupted him. You realize that you’re Kombat Karl, so you stop crying and assume that his transcendence was for the best. You pack what’s left in the frigate, and you and Lt look up at the “North to New Los Angeles” sign. Then, Lt says, “It’s time to become immortal,” a cryptic yet thrilling line. 
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -340,17 +340,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F73-R1-JQX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F73-R1-JQX">
                                 <rect key="frame" x="20" y="88" width="374" height="347"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">You’ve just sent Billiam LaCroix back to MFS. That should show him. You continue on outside to see Lt, Lieutenant Colonel of the Space Corps in the OTK Battalion, and Jeff T. Sniper outside smoking a cigar while staring at the sunset. You approach slowly and are invited into their moment. After a few minutes pass, you pack what’s left in the frigate, and you all look up at the “North to New Los Angeles” sign.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Matthew-McConaughey-crying-in-Interstellar" translatesAutoresizingMaskIntoConstraints="NO" id="D7f-7p-ISa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Matthew-McConaughey-crying-in-Interstellar" translatesAutoresizingMaskIntoConstraints="NO" id="D7f-7p-ISa">
                                 <rect key="frame" x="20" y="482" width="374" height="201"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Billiam LaCroix" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wR-l1-lZz">
                                 <rect key="frame" x="151" y="691" width="112" height="21"/>
@@ -361,6 +359,12 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="F73-R1-JQX" firstAttribute="leading" secondItem="U9O-eA-2ee" secondAttribute="leading" constant="1" id="YNq-QT-kpB"/>
+                            <constraint firstItem="F73-R1-JQX" firstAttribute="top" secondItem="U9O-eA-2ee" secondAttribute="top" constant="1" id="bqn-sg-0QR"/>
+                            <constraint firstItem="D7f-7p-ISa" firstAttribute="top" secondItem="F73-R1-JQX" secondAttribute="bottom" constant="1" id="l3B-65-kdd"/>
+                            <constraint firstItem="U9O-eA-2ee" firstAttribute="trailing" secondItem="F73-R1-JQX" secondAttribute="trailing" constant="1" id="yjZ-gt-qb5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="U9O-eA-2ee"/>
                     </view>
                 </viewController>
@@ -384,7 +388,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="syW-74-8bF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+            <point key="canvasLocation" x="-375" y="117"/>
         </scene>
     </scenes>
     <resources>
