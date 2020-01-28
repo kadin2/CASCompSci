@@ -1,0 +1,8 @@
+NBA All-Star Team Creator 
+
+1. The user can view a pickerView of possible players, sorted by position (Guard or Forward)
+2. The user can select each player and their names and positions will appear below the pickerView
+3. Their created team saves with the press of a button
+4. The user can change the players on their team and save a new team
+5. The user has options to create two teams: the East and West: there’s a page for creating a team for the West and the East (would require a navigation controller) 
+6. The user can reset each individual team if they want a blank page
