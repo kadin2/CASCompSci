@@ -23,7 +23,6 @@
                                 <state key="normal" title="PHOTO" image="camera.fill" catalog="system"/>
                                 <connections>
                                     <action selector="takePic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3YR-Iz-xxi"/>
-                                    <action selector="takePicture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kFR-85-hH6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GyX-Y1-45C">

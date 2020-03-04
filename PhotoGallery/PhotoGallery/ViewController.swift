@@ -40,7 +40,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     func takeIt() {
         takerController = UIImagePickerController()
         takerController.delegate = self
-        takerController.sourceType = .camera
+        takerController.sourceType = .photoLibrary
         present(takerController, animated: true, completion: nil)
     }
     
