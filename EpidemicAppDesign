@@ -3,21 +3,36 @@ Coronavirus Test Kit Locator Idea
 
 Statement of Purpose
 
-  The purpose of my app is to provide real-time information about where and when people can take available Coronavirus test kits. As the Coronavirus continues to spread, paranoia and fear spreads as well. The United States is currently very unequipped with Coronavirus test kits so the vast majority of people don’t know what precautions they should take at home because Coronavirus symptoms appear up to a couple weeks after contraction. My app would provide details of any places that carry kits so people can go and get tested. 
+  The purpose of my app is to provide real-time information about where and when people can take available Coronavirus test 
+  kits. As the Coronavirus continues to spread, paranoia and fear spreads as well. The United States is currently very 
+  unequipped with Coronavirus test kits so the vast majority of people don’t know what precautions they should take at home 
+  because Coronavirus symptoms appear up to a couple weeks after contraction. My app would provide details of any places that 
+  carry kits so people can go and get tested. 
 
 
 Features
 
-1. A user should be able to type in their zip code into a text field in order to see what places near them are carrying Coronavirus test kits. 
-2. A user should be able to select a specific place that pops up after typing in your address in order to view the estimated wait time, estimated arrival time, and estimated amount of people there. 
-3. A user should be able to self-report the estimated wait time and estimated amount of people at an available testing location in order to help users decide what testing location will have them out of their home for the least amount of time (this feature would work similarly to Waze’s, where people are prompted to confirm or deny road obstacles) 
-4. A user should be able to click a button labeled “Directions” when viewing their nearest testing places in order to get navigation to a specific place. 
-5. A user should be able to click a button that takes the user to a map (using a MapKit) in order to see what places near them are carrying Coronavirus test kits in a different way.
-6. A user should be able to see available testing sites on the map as well (perhaps through distinct icons) in order to have another perspective as to where the kits actually are. 
-7. A user should be able to click on a testing site on the map and be redirected to the same page (the nearest testing places page) that shows the estimated wait time, estimated arrival time, and estimated amount of people there. 
-8. A user should be able to view hospitals or doctor’s offices on the map or nearest places page that are treating Coronavirus patients in order to know where to go if they’re feeling symptoms.
-9. A user should be able to find the latest information (relevant news articles and government updates) on the Coronavirus in their area in order to stay updated and informed about quarantine regulations and suggestions.
-10. A user should be able to see relevant symptom facts in order to see if they’re showing symptoms and to help make a decision of going out or not.   
+1. A user should be able to type in their zip code into a text field in order to see what places near them are carrying 
+Coronavirus test kits. 
+2. A user should be able to select a specific place that pops up after typing in your address in order to view the estimated 
+wait time, estimated arrival time, and estimated amount of people there. 
+3. A user should be able to self-report the estimated wait time and estimated amount of people at an available testing location
+in order to help users decide what testing location will have them out of their home for the least amount of time (this feature
+would work similarly to Waze’s, where people are prompted to confirm or deny road obstacles) 
+4. A user should be able to click a button labeled “Directions” when viewing their nearest testing places in order to get 
+navigation to a specific place. 
+5. A user should be able to click a button that takes the user to a map (using a MapKit) in order to see what places near them 
+are carrying Coronavirus test kits in a different way.
+6. A user should be able to see available testing sites on the map as well (perhaps through distinct icons) in order to have 
+another perspective as to where the kits actually are. 
+7. A user should be able to click on a testing site on the map and be redirected to the same page (the nearest testing places
+page) that shows the estimated wait time, estimated arrival time, and estimated amount of people there. 
+8. A user should be able to view hospitals or doctor’s offices on the map or nearest places page that are treating Coronavirus 
+patients in order to know where to go if they’re feeling symptoms.
+9. A user should be able to find the latest information (relevant news articles and government updates) on the Coronavirus in 
+their area in order to stay updated and informed about quarantine regulations and suggestions.
+10. A user should be able to see relevant symptom facts in order to see if they’re showing symptoms and to help make a decision
+of going out or not.   
 
 
 Image
@@ -27,4 +42,9 @@ Image
 
 Challenges
 
-One of the first possible risks/challenges that comes to mind is an influx of people leaving their self-quarantine to go to testing sites. Although you aren’t supposed to take COVID-19 test kits at home, making an app that shows where test kits are available may result in many people leaving their homes that didn’t necessarily need to. If an extreme amount of people were leaving their homes’ as a result, it’s possible that some legal challenges could arise. Also, trusting that people are inputting real reports on estimated wait time and estimated amount of people there will be a challenge. It has worked for apps before but “trolls” could decide to mess with everyone and make certain places look more empty or full than they are. 
+One of the first possible risks/challenges that comes to mind is an influx of people leaving their self-quarantine to go to 
+testing sites. Although you aren’t supposed to take COVID-19 test kits at home, making an app that shows where test kits are 
+available may result in many people leaving their homes that didn’t necessarily need to. If an extreme amount of people were 
+leaving their homes’ as a result, it’s possible that some legal challenges could arise. Also, trusting that people are 
+inputting real reports on estimated wait time and estimated amount of people there will be a challenge. It has worked for apps
+before but “trolls” could decide to mess with everyone and make certain places look more empty or full than they are. 
