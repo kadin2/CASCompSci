@@ -66,21 +66,7 @@ class GameManager {
         scene.scorePos = CGPoint(x: randomX, y: randomY)
     }
     
-    func update(time: Double) {
-        if nextTime == nil {
-            nextTime = time + timeExtension
-        } else {
-            if time >= nextTime! {
-                nextTime = time + timeExtension
-                updatePlayerPosition()
-                checkForScore()
-                checkForDeath()
-                finishAnimation()
-            }
-        }
-    }
-    
- private func finishAnimation() {
+    private func finishAnimation() {
         if playerDirection == .none && scene.playerPositions.count > 0 {
             var hasFinished = true
             let headOfSnake = scene.playerPositions[0]
@@ -112,7 +98,7 @@ class GameManager {
     }
 }
     
-    private func updateScore() {
+     private func updateScore() {
          if currentScore > UserDefaults.standard.integer(forKey: "bestScore") {
               UserDefaults.standard.set(currentScore, forKey: "bestScore")
          }
@@ -128,6 +114,20 @@ class GameManager {
             arrayOfPositions.remove(at: 0)
             if contains(a: arrayOfPositions, v: headOfSnake) {
                 playerDirection = .none
+            }
+        }
+    }
+    
+    func update(time: Double) {
+        if nextTime == nil {
+            nextTime = time + timeExtension
+        } else {
+            if time >= nextTime! {
+                nextTime = time + timeExtension
+                updatePlayerPosition()
+                checkForScore()
+                checkForDeath()
+                finishAnimation()
             }
         }
     }
