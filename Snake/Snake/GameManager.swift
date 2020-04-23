@@ -15,6 +15,7 @@ class GameManager {
         case up
         case right
         case down
+        case none
     }
     
     var scene: GameScene!
