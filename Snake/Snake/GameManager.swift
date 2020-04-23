@@ -93,11 +93,9 @@ class GameManager {
             print("end game")
             updateScore()
             playerDirection = .down
-            //animation has completed
             scene.scorePos = nil
             scene.playerPositions.removeAll()
             renderChange()
-            //return to menu
             scene.currentScore.run(SKAction.scale(to: 0, duration: 0.4)) {
             self.scene.currentScore.isHidden = true
             }
