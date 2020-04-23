@@ -21,7 +21,6 @@ class GameManager {
     var nextTime: Double?
     var timeExtension: Double = 0.10
     var playerDirection: Direction = .left
-    
     var currentScore: Int = 0
     
     init(scene: GameScene) {
@@ -34,7 +33,6 @@ class GameManager {
         scene.playerPositions.append((10, 11))
         scene.playerPositions.append((10, 12))
         renderChange()
-        
         generateNewPoint()
     }
     
@@ -62,7 +60,6 @@ class GameManager {
             randomX = CGFloat(arc4random_uniform(19))
             randomY = CGFloat(arc4random_uniform(39))
         }
-        
         scene.scorePos = CGPoint(x: randomX, y: randomY)
     }
     
