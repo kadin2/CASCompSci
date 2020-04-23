@@ -19,7 +19,7 @@ class GameManager {
     
     var scene: GameScene!
     var nextTime: Double?
-    var timeExtension: Double = 0.15
+    var timeExtension: Double = 0.10
     var playerDirection: Direction = .left
     
     var currentScore: Int = 0
