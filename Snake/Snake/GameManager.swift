@@ -20,9 +20,8 @@ class GameManager {
     
     var scene: GameScene!
     var nextTime: Double?
-    var timeExtension: Double = 0.15
+    var timeExtension: Double = 0.10
     var playerDirection: Direction = .left
-    
     var currentScore: Int = 0
     
     init(scene: GameScene) {
@@ -35,7 +34,6 @@ class GameManager {
         scene.playerPositions.append((10, 11))
         scene.playerPositions.append((10, 12))
         renderChange()
-        
         generateNewPoint()
     }
     
@@ -63,25 +61,10 @@ class GameManager {
             randomX = CGFloat(arc4random_uniform(19))
             randomY = CGFloat(arc4random_uniform(39))
         }
-        
         scene.scorePos = CGPoint(x: randomX, y: randomY)
     }
     
-    func update(time: Double) {
-        if nextTime == nil {
-            nextTime = time + timeExtension
-        } else {
-            if time >= nextTime! {
-                nextTime = time + timeExtension
-                updatePlayerPosition()
-                checkForScore()
-                checkForDeath()
-                finishAnimation()
-            }
-        }
-    }
-    
- private func finishAnimation() {
+    private func finishAnimation() {
         if playerDirection == .none && scene.playerPositions.count > 0 {
             var hasFinished = true
             let headOfSnake = scene.playerPositions[0]
@@ -113,7 +96,7 @@ class GameManager {
     }
 }
     
-    private func updateScore() {
+     private func updateScore() {
          if currentScore > UserDefaults.standard.integer(forKey: "bestScore") {
               UserDefaults.standard.set(currentScore, forKey: "bestScore")
          }
@@ -129,6 +112,20 @@ class GameManager {
             arrayOfPositions.remove(at: 0)
             if contains(a: arrayOfPositions, v: headOfSnake) {
                 playerDirection = .none
+            }
+        }
+    }
+    
+    func update(time: Double) {
+        if nextTime == nil {
+            nextTime = time + timeExtension
+        } else {
+            if time >= nextTime! {
+                nextTime = time + timeExtension
+                updatePlayerPosition()
+                checkForScore()
+                checkForDeath()
+                finishAnimation()
             }
         }
     }
